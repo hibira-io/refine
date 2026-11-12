@@ -1,0 +1,25 @@
+{
+  "name": "hibira-refine-example",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "api": "node server.mjs",
+    "dev": "vite",
+    "start": "node server.mjs & vite"
+  },
+  "dependencies": {
+    "@hibira-io/refine": "file:..",
+    "@refinedev/core": "^5.0.12",
+    "@refinedev/simple-rest": "^6.0.1",
+    "@tanstack/react-query": "^5.90.0",
+    "axios": "^1.13.0",
+    "pusher": "^5.3.4",
+    "pusher-js": "^8.6.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.0",
+    "vite": "^8.0.0"
+  }
+}
